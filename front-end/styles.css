@@ -1,20 +1,38 @@
-.color-1 {color: #edf1ff;}
-.color-2 {color: #dae4ff;}
-.color-3 {color: #b5c9ff;}
-.color-4 {color: #91adff;}
-.color-5 {color: #6c92ff;}
-.color-6 {color: #fff6da;}
-.color-7 {color: #ffecb5;}
-.color-8 {color: #ffe391;}
-.color-9 {color: #ffd96c;}
-.color-10 {color: #1f2124;}
-.color-11 {color: #3e4148;}
-.color-12 {color: #5e626b;}
+.color-1 {color: #30355d;}
+.color-2 {color: #af4846;}
+.color-3 {color: #edd7c5;}
+.color-4 {color: #80b3e2;}
+.color-5 {color: #ab7957;}
+.color-6 {color: #cf9d73;}
+.color-7 {color: #90beea;}
+.color-8 {color: #c0796e;}
+.color-9 {color: #4c94c0;}
+.color-10 {color: #ffd96c;}
+.color-11 {color: #1f2124;}
+.color-12 {color: #3e4148;}
 .color-13 {color: #7d828f;}
 
 #menu {
-    height: 100px;
-    box-shadow: 0px 12px 10px -15px #5e626b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 140px;
+    box-shadow: 0px 12px 10px -15px #4c94c0;
+}
+#logo {
+    height: 120px;
+}
+#title {
+
+}
+#title h2 {
+    color: #4c94c0;
+}
+#title h4 {
+    color: #ab7957;
+}
+#navbar {
+
 }
 
 @media (min-width: 576px) {
